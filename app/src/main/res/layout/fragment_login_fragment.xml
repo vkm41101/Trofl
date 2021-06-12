@@ -9,11 +9,13 @@
 
         <TextView
             android:id="@+id/textView"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginEnd="16dp"
             android:text="PhoneNumber:"
+            android:textColor="#040303"
+            android:textStyle="bold"
             app:layout_constraintBaseline_toBaselineOf="@+id/username_text"
             app:layout_constraintEnd_toStartOf="@+id/username_text"
             app:layout_constraintStart_toStartOf="parent" />
@@ -45,10 +47,12 @@
 
         <TextView
             android:id="@+id/textView3"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginEnd="16dp"
             android:text="Password:"
+            android:textColor="#000000"
+            android:textStyle="bold"
             app:layout_constraintBaseline_toBaselineOf="@+id/edittext_passwword"
             app:layout_constraintEnd_toEndOf="@+id/textView"
             app:layout_constraintHorizontal_bias="0.0"
