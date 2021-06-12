@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Trofl</string>
+    <string name="tag">A Universal Menu Hosting Application</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login_text">Log In</string>
+    <string name="signup_text">Sign Up</string>
 </resources>

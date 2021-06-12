@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    layout_width="match_parent"
-    layout_height="match_pareent">
-    <fra
-</LinearLayout>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    -<androidx.drawerlayout.widget.DrawerLayout android:id="@+id/drawerLayout" android:layout_height="match_parent" android:layout_width="match_parent">
+
+
+        -<LinearLayout android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="vertical">
+
+        <fragment android:id="@+id/NavHostFragment"
+                  android:layout_height="match_parent"
+                  android:layout_width="match_parent"
+                  app:defaultNavHost="true"
+                  app:navGraph="@navigation/navigation"
+                  android:name="androidx.navigation.fragment.NavHostFragment"/>
+
+    </LinearLayout>
+
+
+
+    </androidx.drawerlayout.widget.DrawerLayout>
+
+</layout>
