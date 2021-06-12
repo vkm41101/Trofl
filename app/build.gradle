@@ -43,7 +43,7 @@ dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
 
     def nav_version='2.3.5'
-
+    implementation 'com.android.volley:volley:1.2.0'
     // Kotlin
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$version_kotlin"
 

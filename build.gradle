@@ -9,6 +9,7 @@ buildscript {
         version_navigation = "2.3.0"
     }
     repositories {
+        maven {url "https://jitpack.io"}
         google()
         mavenCentral()
         jcenter()
