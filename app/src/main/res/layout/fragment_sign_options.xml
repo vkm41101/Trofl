@@ -20,7 +20,7 @@
             tools:src="@tools:sample/avatars" />
 
         <Button
-            android:id="@+id/buttonn_login"
+            android:id="@+id/button_login"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
@@ -39,6 +39,6 @@
             app:layout_constraintEnd_toEndOf="@+id/imageView3"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="@+id/imageView3"
-            app:layout_constraintTop_toBottomOf="@+id/buttonn_login" />
+            app:layout_constraintTop_toBottomOf="@+id/button_login" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

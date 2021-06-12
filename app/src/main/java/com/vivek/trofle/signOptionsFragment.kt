@@ -17,7 +17,7 @@ class signOptionsFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         val bind:FragmentSignOptionsBinding=DataBindingUtil.inflate(inflater, R.layout.fragment_sign_options, container, false)
-        bind.buttonnLogin.setOnClickListener ( Navigation.createNavigateOnClickListener(R.id.action_signOptionsFragment_to_login_fragment) )
+        bind.buttonLogin.setOnClickListener ( Navigation.createNavigateOnClickListener(R.id.action_signOptionsFragment_to_login_fragment) )
         bind.buttonSignup.setOnClickListener ( Navigation.createNavigateOnClickListener(R.id.action_signOptionsFragment_to_signUpFragment) )
         return bind.root
     }
